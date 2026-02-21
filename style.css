@@ -1,0 +1,94 @@
+body{
+      background-image: url(hdimage/imghd1.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 100vh;
+}
+#login-box{
+  
+    background-color:rgba(0,0,0,0.1);/* transprant background*/
+    width:350px;
+    padding:30px;
+    border-radius: 20px; 
+    box-shadow: 0 2px 12px rgb(250, 249, 249);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(0.3s);
+    text-align: center;
+    margin:auto;
+    margin-top: 10%;
+    margin-left: 200px;
+ 
+}
+#login-box input{
+    width: 100%;
+    padding : 10px;
+    background-color: rgba(255,255,255,0.15);
+    border:1px solid rgba(255,255,255,0.4);
+    color:white;
+    outline: none;
+    border-radius: 5px;
+}
+
+
+
+h1{
+    color:rgba(43, 122, 241, 0.959);
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.input-group{
+    margin: 15px;
+    background-color: transparent !important; /* Make a comment important*/
+}
+
+lable{
+   
+    color: rgba(172, 172, 172, 0.815);
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.password-box{
+    position: relative;
+   
+}
+
+.password-box input { /*make a pass visible/invisible*/
+   
+    border:1px solid transparent;
+    color: rgba(172, 172, 172, 0.815);
+    outline:none;
+}
+
+.toggle{
+    position: absolute;
+    content:👁;
+    transform: translateY(-50%);
+    cursor:pointer;
+    user-select: none;
+}
+
+  
+button{
+    width: 275px;
+    padding: 10px;
+    background-color:rgba(0,123,255,0.6); /* Blue button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin:8px;
+    
+}
+button:hover {
+    
+      background-color: rgb(9, 65, 168);
+}
+
+/* regester line change */
+#rst{
+    text-decoration: none;
+    color: rgba(78, 2, 2, 0.705);
+}
+

@@ -1,0 +1,243 @@
+
+  
+
+.vs2 h3{
+  text-align: center;
+  color: white;
+  font-family:'quicksand', sans-serif;
+}
+
+#main-content{
+  font-family: 'quicksand', sand-serif;
+  font-size: 18px;
+}
+
+
+h3{
+  color:#00bcd4;
+}
+
+
+
+body{
+  color:antiquewhite;
+  background-color: rgb(29, 27, 27);
+   
+   /* background-image: url(hdimage/imghd4.jpg); */
+}
+                                                             /* Navication bar */
+
+
+                                                             /* row content 54 */
+.container{
+  flex-wrap: wrap;
+  gap: 20px;
+  display: flex;
+ 
+}
+                                                             /* Navication bar */
+.nav1{ 
+    border: 2px solid black;
+    background-color: #02032c;
+    border-radius: 5px;
+    max-width: 100%;
+    max-height: 100%;
+    color: white;
+    display: flex;
+    gap: 10px;
+    padding: 2px;
+   
+}
+.nav1 pre{
+    margin-left: 80%;
+}
+.nav1 a{
+    text-align: right;
+    color:rgb(211, 203, 203);
+    text-decoration: none; 
+    margin-left: 18px;
+    font-size: 14px;
+   font-family: monospace;
+
+}
+
+.box{
+ 
+    margin-left: 20px;
+    width:400px;
+    height:150px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color:rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+     gap: 20px;
+     margin-bottom: 20px;
+}
+                                                             /* solcial link .com */
+.social-link{
+ display: flex; align-items: center;
+ justify-content: center;
+ border-radius: 50px;
+ width: 60px;  height: 60px;
+ background-color: rgba(255, 255, 255, 0.5);
+ color: var(--text-dim); font-size: 1.5rem;
+ transition: var(--transition);
+ border: 1px solid rgba(255, 255, 255, 0.1);
+   
+}
+.social-link :hover{
+    background:var(--neon-red);
+    color: #000; transform: translateZ(-8px);
+    box-shadow: 0 10px 25px rgb(255, 0, 60, 0.4);
+    border-color: var(--neon-red);
+ 
+}
+                                                             /* image block */
+#gallery{
+   
+    display: flex;
+    width: auto;
+    max-width: 1200px;
+    box-shadow: 0px 2px 10px rgb(12, 12, 12);
+    margin: auto;
+    background: #1110104f;
+    padding: 10px;
+    border-radius: 15px;
+    overflow: visible;
+    border: 2px solid black;
+    
+
+    
+}
+#gallery p{
+    font-size: 20px;
+
+}
+ h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#gallery img{
+    width: 70px;
+    border: 2px solid yellow;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out ;
+    cursor: pointer;
+    margin: 0.5px;
+    filter: saturate(80%);
+}
+#gallery img:hover{
+
+     filter: saturate(100%);
+     width: 320px;
+}
+
+                                                              /* script section */
+.voice{
+    margin-top: 20px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px black ;
+    max-width: 350px;
+    height: 175px;
+    gap: 5px;
+    background-color: rgb(2, 10, 32);
+    margin-left: 500px;
+    
+}
+.voice input{
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    height: 20px;
+    
+
+   
+}
+.voice button{
+    border: none;
+    border-radius: 4px;
+    font-family:  sans-serif;
+    font-size: 15px;
+    
+}
+
+.voice button:hover {
+    background-color: red;
+}
+
+
+#roll{
+    color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #d946ef;
+    padding: 20px;
+}
+.footer {
+  background-color: rgba(0,0,0,0.5);
+  color: #fff;
+  padding: 40px 0 0 0;
+  font-family: Arial, sans-serif;
+  border-radius: 5px;
+}
+
+.footer-container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1;
+  margin: 15px;
+  min-width: 200px;
+}
+
+.footer-section h2,
+.footer-section h3 {
+  margin-bottom: 15px;
+  color: #00bcd4;
+}
+
+.footer-section p {
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin: 8px 0;
+}
+
+.footer-section ul li a {
+  text-decoration: none;
+  color: #ccc;
+  transition: 0.3s;
+}
+
+.footer-section ul li a:hover {
+  color: #00bcd4;
+  padding-left: 5px;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 15px;
+  background-color: #000;
+  margin-top: 20px;
+  font-size: 14px;
+}
