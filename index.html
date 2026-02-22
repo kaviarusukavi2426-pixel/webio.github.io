@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title> Web io</title>
+        <link rel="stylesheet" href="style.css"> 
+        <meta charset="UTF-8">
+        <meta name="viewport"
+        content="width=device-width, initial scale=1.0">
+        <link rel="icon" type="image/x-icon" href="images2/logo1.4.png">
+
+    </head>
+    <body style="background-color: rgb(1, 1, 3)";>
+        <!-- <login part-->
+ 
+       <div class="login-box" id="login-box">
+          <form onsubmit="return checkLogin()">
+            <h1>LOG IN</h1>
+            <div class="input-group"> 
+                <lable>username</lable>         
+                <input type="text" id="username"
+                placeholder="name">
+            </div>
+            <div class="input-group">
+                <lable>password</lable>
+                <div class="password-box">
+
+                <input type="password" id="password" placeholder="password" >
+
+            </div>
+            
+            <button type="submit" >Login</button>
+            <p id="error mesasge" class="error"></p>
+            <h3>or</h3>
+            <p> didn't any accoutn,
+                <a href="register.html" id="rst">Register</a>
+            </p>
+        </form> 
+        </div>
+        
+        
+       
+        
+         <script src="srp.js"></script>
+         <script src="script.js"></script>
+    </body>
+</html>
