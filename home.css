@@ -23,7 +23,8 @@ body{
   margin: 0;
   padding: 0;
   color:rgb(8, 8, 8);
-  background-color: rgb(255, 255, 255);
+  
+ 
    
    /* background-image: url(hdimage/imghd4.jpg); */
 }
@@ -68,22 +69,19 @@ body{
 /* --------------------------------------back box ------------------------------------------------ */
 
 #ddf2{
-  background-color:rgb(255, 153, 0);
+  background-color: #f2b759;
   height: max-content;
  
+}
+
+#ddf3{
+  background-color: #0a4a3c ;
 }
 
   
 
 
-
-
-
-
-
-
-
-
+/* ----------------------------------------box color ---------------------------------------------- */
 .p1 p3{
   text-decoration: double;
   
